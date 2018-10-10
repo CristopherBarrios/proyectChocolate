@@ -1,3 +1,5 @@
+import sun.rmi.transport.TransportConstants.Return
+
 class ForrestGump <T> (val life : RandomBox <T>) {
     var isRunning: Boolean = false
     fun runForrest() {
